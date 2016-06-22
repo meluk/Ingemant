@@ -1,0 +1,18 @@
+<section class="logIn-section">
+	<div class="container">
+		<h1 class="main-title">Welcome Back!</h1>
+	    <form name="logInForm" novalidate="" ng-submit="logIn()" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+	        <fieldset>
+	        	<label for="email">Email</label>
+	            <input id="inpt-Log-Email" type="email" name="email" placeholder="Email" ng-model="logginAccount.email" ng-required="true" class="ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" required="required">
+	            <p class="error validationerror ng-hide" ng-show="logInForm.email.$invalid &amp;&amp; logInForm.email.$touched">Must specify a valid email</p>
+	            <label for="password">Password</label>
+	            <input id="inpt-Log-Password" type="password" name="password" placeholder="Password" ng-model="logginAccount.password" ng-required="true" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" required="required">
+	            <p class="error validationerror ng-hide" ng-show="logInForm.password.$invalid &amp;&amp; logInForm.password.$touched">Please specify password</p>
+	            <p class="validationerror">{{logInErrorMessage}}</p>
+	        </fieldset>
+	        <button type="submit" class="btn1 acptGreen" ng-disabled="logInForm.$invalid">Log In</button>
+	        <a class="btn1 darkpink" ng-href="#/signIn">Sing Up</a>
+	    </form>
+	</div>   
+</section>

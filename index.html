@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="ingemantApp">
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<meta name="" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--ANGULAR-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script type="text/javascript" src="js/angular/app.js"></script>
+        <!--Controllers-->
+        <script type="text/javascript" src="js/angular/controllers/controller-main.js"></script>
+        <script type="text/javascript" src="js/angular/controllers/controller-signIn.js"></script>
+        <script type="text/javascript" src="js/angular/controllers/controller-logIn.js"></script>
+        <script type="text/javascript" src="js/angular/controllers/controller-clientDashboard.js"></script>
+        <!--Services-->
+        <script type="text/javascript" src="js/angular/services/services-main.js"></script>
+        <script type="text/javascript" src="js/angular/services/services-users.js"></script>
+        <script type="text/javascript" src="js/util/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/util/angular-animate.min.js"></script>
+        <script type="text/javascript" src="js/util/angular-local-storage.js"></script>
+        <!--ANGULAR-->
+        <!--FONTS-->
+        <link rel="stylesheet" media="screen" href="css/font-awesome.min.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+        <!--FONTS-->
+        <!--BOOTSRAP-->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <!--BOOTSRAP-->
+        <!--Master Style For App-->
+        <link rel="stylesheet" media="screen" href="css/master-styles.css"/>
+        <meta name="author" content=""/>
+       
+    </head>
+    <body>
+        <header id="main-head">
+            <div class="container">
+                <div class="left">
+                    <img src="img/logos/head-logo.png" alt="" width="50" height="50">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div ng-view>
+
+            </div>
+        </main>
+        <footer>          
+        </footer>
+		<script type="text/javascript" src="js/util/jquery.js"></script>
+        <script type="text/javascript" src="js/util/bootstrap.min.js"></script>
+		</script>
+    </body>
+</html>

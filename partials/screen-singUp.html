@@ -1,0 +1,20 @@
+<section class="signIn-section">
+	<div class="container">
+		<h1 class="main-title">Join Us!</h1>
+	    <form name="signInForm" novalidate="" ng-submit="signIn()" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+	        <fieldset>
+	        	<label for="uName">Name:</label>
+	        	<input id="inpt-Sign-Name" type="uName" name="uName" placeholder="Name" ng-model="newAccount.uName" ng-required="true" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" required="required">
+	            <p class="error validationerror ng-hide" ng-show="signInForm.uName.$invalid &amp;&amp; signInForm.uName.$touched">Must specify a user name</p>
+	            <label for="email">Email</label>
+	            <input id="inpt-Sign-Email" type="email" name="email" placeholder="Email" ng-model="newAccount.email" ng-required="true" class="ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" required="required">
+	            <p class="error validationerror ng-hide" ng-show="signInForm.email.$invalid &amp;&amp; signInForm.email.$touched">Must specify a valid email</p>
+	            <label for="password">Password</label>
+	            <input id="inpt-Sign-Password" type="password" name="password" placeholder="Password" ng-model="newAccount.password" ng-required="true" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" required="required">
+	            <p class="error validationerror ng-hide" ng-show="signInForm.password.$invalid &amp;&amp; signInForm.password.$touched">Please specify password</p>
+	        </fieldset>
+	        <button type="submit" class="btn1 acptGreen" ng-disabled="signInForm.$invalid">Sign Up</button>
+	        <a class="btn1 darkpink" ng-href="#/logIn">Log In</a>
+	    </form>
+	</div>   
+</section>
