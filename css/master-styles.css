@@ -30,191 +30,35 @@ footer, header, hgroup, menu, nav, section {
 html {
 }
 body {
-	font-family: "Muli";
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-.cf {
-	clear: both;
-}
-
-/*BUTTONS*/
-.btn1 {
-	display: block;
-	width: 200px;
-	max-width: 200px;
-	margin: 1em auto;
-	padding: 15px;
-	border: none;
-	background-color: #333;
-	color: #FFF;
-	border-radius: 10px;
-	text-decoration: none;
-	font-size: 1.2em;
-}
-
-.btn1, .btn1:hover, .btn1:active, .btn1:focus{
-	color: #FFF;
-	text-decoration: none;
-}
-
-.btnGreen {
-	background-color: #88c443;
-}
-
-.btnGreen:hover {
-	background-color: #7BB03D;
-}
-
-/*END BUTTONS*/
-
-/*ELEMENTS*/
-.main-title{
-	font-weight: bold;
-	font-size: 1.8em;
-	margin-bottom: 2em;
-	color: #303d54;
-}
-.main-title span{
-	font-style: italic;
-}
-
-.second-title {
-	font-weight: bold;
-	margin-bottom: 0.5em;
-	color: #303d54;
-}
-
-fieldset {
-	max-width: 200px;
-	margin: 0 auto;
-}
-
-input {
-	width: 100%;
-	margin: 0.5em 0;
-}
-
-label {
-	color: #303d54;
-}
-
-.validationerror {
-	color: #CB3B3B;
-}
-
-/*END ELEMENTS*/
-
-
-/*ANGULAR*/
-
-/*ANGULAR*/
-
 
 /*HEADER*/
 #main-head	{
-	background-color: #303d54;
-	padding: 0.5em 0;
+	
+	padding: 0;
+}
+#element_main{
+	height: 110px;
+	position: absolute;
+   top:  -10px; 
+   left: -190px;
+}
+#logo_main{
+	height: 55px;
+	margin: 20px 40px 20px 200px;
 }
 /*END HEADER*/
+/*HOME*/
+#slider-homer{
+	height: 436px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#184973+13,21639c+62,207cca+100,207cca+100 */
+background: #184973; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #184973 13%, #21639c 62%, #207cca 100%, #207cca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #184973 13%,#21639c 62%,#207cca 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #184973 13%,#21639c 62%,#207cca 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184973', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
-/*LANDING*/
-.welcome-section {
-	padding-top: 1em;
-	height: 40em;
-	text-align: center;
-	font-family: "Muli";
-	background: url(../img/backgrounds/back1.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
-
-.welcome-section .logo{
-	min-width: 120px;
-	max-width: 288px;
-}
-
-.welcome-section .main-title{
-	color: #fff;
-}
-/*END LANDING*/
-
-/*LOG-IN*/
-.logIn-section {
-	padding-top: 1em;
-	text-align: center;
-}
-/*END LOG-IN*/
-
-/*SIGN-IN*/
-.signIn-section {
-	padding-top: 1em;
-	text-align: center;
-}
-/*END SIGN-IN*/
-
-/*DASHBOARD-CLIENTE*/
-.user-dashboard {
-	padding-top: 1em;
-}
-
-.user-dashboard .user-info{
-	margin-bottom: 2em;
-}
-
-.user-info .right,  .user-info .left{
-	padding: 0.5em;
-}
-
-.user-info .profile-img{
-	width: 100%;
-	min-width: 50px;
-	max-width: 150px;
-	border-radius: 15px;
-}
-
-.user-info .main-title{
-	color: #88c443;
-	margin-bottom: 1em;
-}
-
-.user-events header{
-	padding: 0.5em; 
-	border-bottom: 1px solid #303d54;
-}
-
-.user-events .main-title{
-	color: #88c443;
-	margin-bottom: 0em;
-}
-/*END DASHBOARD-CLIENTE*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*END HOME*/
 
