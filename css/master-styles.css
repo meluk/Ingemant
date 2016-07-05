@@ -21,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Lato', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -31,22 +32,34 @@ html {
 }
 body {
 }
-
+.txt-blueLigth{
+	color: #0f4570;
+}
+.txt-gray{
+	color: #6d6f73;
+}
 /*HEADER*/
-#main-head	{
-	
-	padding: 0;
+#main-head	{	
+	padding-bottom: 20px;
 }
 #element_main{
-	height: 110px;
+	height: 100px;
 	position: absolute;
    top:  -10px; 
-   left: -190px;
+   left: -150px;
 }
 #logo_main{
-	height: 55px;
-	margin: 20px 40px 20px 200px;
+	height: 53px;
+	margin: 0px 190px 20px 190px;
 }
+.nav{
+	margin-top: 16px;
+}
+.nav a{
+	text-decoration: none;
+	color: #42454b;
+}
+
 /*END HEADER*/
 /*HOME*/
 #slider-homer{
@@ -57,8 +70,86 @@ background: -moz-linear-gradient(-45deg,  #184973 13%, #21639c 62%, #207cca 100%
 background: -webkit-linear-gradient(-45deg,  #184973 13%,#21639c 62%,#207cca 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg,  #184973 13%,#21639c 62%,#207cca 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184973', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+}
+.screen-home h1{
+	font:Light 2em 'Lato', sans-serif;
+	color: #fff;
+}
+.box-three{
+	text-align: center;
+}
+.info-home{
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+.servicess-home{
+	background-color: #e4e4e4;
+	padding-bottom: 1.2em
+}
+.servicess-home h1{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+.stick{
+	background-color: #e4e4e4;
+	height: 10em;
+	width: 0.2em;
+	margin: 0;
+	float: left;
+}
+.text-boxCenter{
+	float: left;
+	width: 96%;
+}
+.icon-servicess{
+	height: 195px;
+}
+.text-infoHome{
+	margin-top: 1em;
 
 }
 /*END HOME*/
+footer{
+	background-color: #0e2a41;
+	padding-top: 1em;
+	padding-bottom:1em;
+	text-align: center;
+	font-size: 2em;
+	color: #fff
+}
+/*END FOOTER
+/*PRUEBA
+/* Effect 6 */
+ .hovicon.effect-6 {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 1);
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+}
+.hovicon.effect-6:hover {
+    /*background: rgba(255, 255, 255, 1);*/
+    background-color: #297dc1;
+}
+
+.hovicon.effect-6:hover:before {
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+.hovicon {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 90px;
+    cursor: pointer;
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+}
+/*PRUEBA
 

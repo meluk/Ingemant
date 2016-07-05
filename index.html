@@ -22,7 +22,7 @@
         <!--ANGULAR-->
         <!--FONTS-->
         <link rel="stylesheet" media="screen" href="css/font-awesome.min.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+       <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
         <!--FONTS-->
         <!--BOOTSRAP-->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -38,7 +38,15 @@
             <div class="container">
                 <div class="left">
                     <img id="element_main" src="img/logos/element1.png" alt="">
-                    <img id="logo_main" src="img/logos/head-logo.png" alt="ingemant">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="#"><img id="logo_main" src="img/logos/head-logo.png" alt="ingemant"></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Servicios</a></li>
+                      <li><a href="#">Productos</a></li> 
+                      <li><a href="#">Contactenos</a></li> 
+                    </ul>
                 </div>
             </div>
         </header>
@@ -47,7 +55,10 @@
 
             </div>
         </main>
-        <footer>          
+        <footer> 
+         <i class="fa fa-facebook-square" aria-hidden="true"></i>
+         <i class="fa fa-twitter-square" aria-hidden="true"></i>
+         <i class="fa fa-google-plus-square" aria-hidden="true"></i>         
         </footer>
 		<script type="text/javascript" src="js/util/jquery.js"></script>
         <script type="text/javascript" src="js/util/bootstrap.min.js"></script>
